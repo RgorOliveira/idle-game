@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #4C0027;
+    --cor2: #570530;
+    --cor3: #750550;
+    --cor4: #980F5A;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: var(--cor2);
+    height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+main {
+    max-width: 600px;
+    background-color: var(--cor3);
+    text-align: center;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+main #coisinhos {
+    margin: 30px;
+    border: solid;
+    border-radius: 20px;
+}
+
+section #click {
+    display: block;
+    margin: 50px auto;
+    padding: 60px;
+    border-radius: 90px;
+    background-color: red;
+    border: 13px solid black;
+}
+
+section .soma {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+footer {
+    background-color: var(--cor1);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    margin: 0px;
+    padding: 7px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
