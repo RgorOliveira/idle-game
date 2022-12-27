@@ -44,9 +44,11 @@ section #click {
     display: block;
     margin: 50px auto;
     padding: 60px;
-    border-radius: 90px;
+    border-radius: 1000px;
     background-color: red;
     border: 13px solid black;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 section .soma {
@@ -54,6 +56,10 @@ section .soma {
     width: 100%;
     padding: 10px;
     margin: 15px 0px;
+}
+
+section .soma:hover{
+    background-color: red;
 }
 
 footer {
