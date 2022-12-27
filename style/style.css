@@ -36,6 +36,7 @@ main {
 
 main #coisinhos {
     margin: 30px;
+    padding: 10px;
     border: solid;
     border-radius: 20px;
 }
