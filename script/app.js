@@ -29,17 +29,6 @@ const addClickB10 = () => {
     mostrarValores()
 }
 
-const addClickB20 = () => {
-    if (cois >= 20){
-        click += 3;
-        cois -= 20;
-    } else {
-        alert('Você não possui coisinhos o suficiente');
-    }
-
-    mostrarValores()
-}
-
 const addClickB50 = () => {
     if (cois >= 50){
         click += 5;
@@ -51,10 +40,21 @@ const addClickB50 = () => {
     mostrarValores()
 }
 
-const addClickB100 = () => {
-    if (cois >= 100){
+const addClickB250 = () => {
+    if (cois >= 250){
         click += 20;
-        cois -= 100;
+        cois -= 250;
+    } else {
+        alert('Você não possui coisinhos o suficiente');
+    }
+
+    mostrarValores()
+}
+
+const addClickB1000 = () => {
+    if (cois >= 1000){
+        click += 100;
+        cois -= 1000;
     } else {
         alert('Você não possui coisinhos o suficiente');
     }
